@@ -15,25 +15,28 @@ body{
     margin-left:30px;
     margin-right:30px;
   }
+.navbar-nav > a:hover{
+    color: red;
+  }
 .second{
     background-color: rgba(0, 0, 0, 0.753);
 }
 
+
 .box1{
-    padding: 2%;
-    float: left;
-    height: 20%;
-    color: white;
-    width:50%;
-}
-.box2{
-    margin-top: 0%;
-    text-align: center;
+    padding: 3%;
+    background-image: url('image.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 640px;
     display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    margin-left: 50%;
+  flex-wrap: wrap;
+  align-content: center;
+  color: red;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
 }
+
 .info{
     background-color: black;
     padding-left:5%;
@@ -49,14 +52,15 @@ body{
 .info > a{
   
     text-decoration: none;
-    padding-left:10%;
-    padding-right:10%;
+    padding-left:5%;
+    padding-right:5%; 
+  justify-content: space-around;
   }
 .info > a{
     text-decoration: none;
     
-    margin-left:30px;
-    margin-right:30px;
+    margin-left:24px;
+    margin-right:24px;
   }
 .identity{
     color: white;
@@ -79,4 +83,8 @@ footer{
     position: relative;
     height: 60px;
     margin-top: -10px;
+}
+.card-body:hover{
+    background-color: white;
+    color: black;
 }
