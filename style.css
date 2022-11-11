@@ -25,16 +25,16 @@ body{
   }
 
 .box1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 margin-bottom: 0;
     font-size: 1.4em;
-    padding: 3%;
+    padding: 2%;
     animation-name: bg;
     background:url('images.jpg') no-repeat center center/cover; 
   color: red;
     color: rgb(255, 255, 255);
     animation-direction: alternate;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 @keyframes bg {
